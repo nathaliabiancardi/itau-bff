@@ -1,0 +1,10 @@
+
+services:
+  bff:
+    build: .
+    container_name: itau-bff
+    ports:
+      - "8080:8080"
+    environment:
+      - SERVICE_NAME=itau-bff
+    restart: unless-stopped
