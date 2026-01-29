@@ -133,11 +133,14 @@ A arquitetura segue o padrão Backend for Frontend (BFF).
 
 Fluxo geral:
 
-O cliente chama o BFF
-O BFF busca perfil e transações em paralelo
-Os dados são consolidados
-Um insight é gerado (mock)
-A resposta é devolvida ao front-end
+- O cliente chama o BFF
+- O BFF busca perfil e transações em paralelo
+- Os dados são consolidados
+- Um insight é gerado (mock)
+- A resposta é devolvida ao front-end
+
+![Arquitetura da solução](docs/architecture.png)
+
 
 ❤️ Organização do projeto
 
@@ -156,4 +159,3 @@ internal/
 
 A separação segue responsabilidades claras, facilitando manutenção e evolução do projeto.
 
-![Arquitetura da solução](docs/architecture.png)
