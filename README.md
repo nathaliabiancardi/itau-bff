@@ -139,8 +139,6 @@ Fluxo geral:
 - Um insight é gerado (mock)
 - A resposta é devolvida ao front-end
 
-![Arquitetura da solução](docs/architecture.png)
-
 
 ❤️ Organização do projeto
 
